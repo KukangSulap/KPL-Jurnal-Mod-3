@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KPLJurnal3">
         <activity
+            android:name=".Soal2"
+            android:exported="false" />
+        <activity
+            android:name=".Soal1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
